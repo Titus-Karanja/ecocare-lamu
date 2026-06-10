@@ -6,19 +6,19 @@ import { Toaster } from './components/ui/toaster'
 
 
 function App() {
- 
+
 
   return (
     <>
-    <Toaster />
+      <Toaster />
       <BrowserRouter>
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
-   
+
   )
 }
 
