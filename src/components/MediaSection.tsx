@@ -10,7 +10,7 @@ const eventsItems = [
   {
     id: 1,
     title: "Event Title",
-    date: "Event Date", 
+    date: "Event Date",
     description: "Event Information",
     image: "eVents Image"
   }
@@ -60,7 +60,6 @@ const blogItems = [
     image: "blog Image",
   },
 ]
-const dailyFunFact = "today's fun fact "
 
 
 export default function MediaSection() {
@@ -113,9 +112,9 @@ export default function MediaSection() {
                     {event.description}
                   </p>
                 </div>
-                  <a className="button absolute bottom-4 right-2 hover:scale-110">
-                    Read More
-                  </a>
+                <a className="button absolute bottom-4 right-2 hover:scale-110">
+                  Read More
+                </a>
               </div>
 
             </div>
@@ -153,6 +152,6 @@ export default function MediaSection() {
         </div>
       </div>
     </div>
-    
+
   </section>
 }

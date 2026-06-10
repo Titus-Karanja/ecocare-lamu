@@ -2,7 +2,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
-import { Toaster } from './components/ui/toaster'
+
 
 
 function App() {
@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-      <Toaster />
       <BrowserRouter basename="/ecocare-lamu">
         <Routes>
           <Route path="/" element={<Home />} />
