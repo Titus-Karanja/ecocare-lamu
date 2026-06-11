@@ -1,63 +1,63 @@
-const teamMembers =[
+const teamMembers = [
   {
     id: 1,
     photo: "photo",
     name: "name ",
-    title:"title",
+    title: "title",
   },
   {
     id: 2,
     photo: "photo",
     name: "name ",
-    title:"title",
+    title: "title",
   },
   {
     id: 3,
     photo: "photo",
     name: "name ",
-    title:"title",
+    title: "title",
   },
   {
     id: 4,
     photo: "photo",
     name: "name ",
-    title:"title",
+    title: "title",
   },
   {
     id: 5,
     photo: "photo",
     name: "name ",
-    title:"title",
+    title: "title",
   },
   {
     id: 6,
     photo: "photo",
     name: "name ",
-    title:"title",
+    title: "title",
   },
   {
     id: 7,
     photo: "photo",
     name: "name ",
-    title:"title",
+    title: "title",
   },
   {
     id: 8,
     photo: "photo",
     name: "name ",
-    title:"title",
+    title: "title",
   },
   {
     id: 9,
     photo: "photo",
     name: "name ",
-    title:"title",
+    title: "title",
   },
   {
     id: 10,
     photo: "photo",
     name: "name ",
-    title:"title",
+    title: "title",
   }
 ]
 export default function AboutSection() {
@@ -67,33 +67,33 @@ export default function AboutSection() {
         About <span className="text-primary">Us</span>
       </h2>
     </div>
-   
+
     <div className="grid grid-cols-1 md:grid-cols-2 gap-[10vw] mb-10">
       <div className="h-[120vh] group bg-card/30 rounded-lg overflow-hidden shadow-xs card-hover">
         <h3 className="text-bold mb-4 p-6">
           Who We Are
         </h3>
-          <div className=" overflow-hidden">
-              <h2 className="p-4">Organization</h2>
-          </div>
-          <div>
-            <p className="mb-4">
-              Body
-            </p>             
-          </div>      
+        <div className=" overflow-hidden">
+          <h2 className="p-4">Organization</h2>
+        </div>
+        <div>
+          <p className="mb-4">
+            Body
+          </p>
+        </div>
       </div>
       <div className="h-[120vh] group bg-card/30 rounded-lg overflow-hidden shadow-xs card-hover">
         <h3 className="text-bold mb-4 p-6">
-          Who We Are
+          What We do
         </h3>
-          <div className="overflow-hidden">
-              <h2 className="p-4">Organization</h2>
-          </div>
-          <div>
-            <p className="mb-4">
-              Body
-            </p>             
-          </div>      
+        <div className="overflow-hidden">
+          <h2 className="p-4">Organization</h2>
+        </div>
+        <div>
+          <p className="mb-4">
+            Body
+          </p>
+        </div>
       </div>
     </div>
 
@@ -121,7 +121,7 @@ export default function AboutSection() {
         ))}
       </div>
     </div>
-        
+
 
   </section>
 }
